@@ -96,6 +96,7 @@ p, a, button {
     opacity: 1;
 }
 .nav-btn{
+    border: none;
     opacity: 0;
     width: 28px; 
     height: 20px;
@@ -105,6 +106,7 @@ p, a, button {
     background-size: contain;
 
     transition: all ease 0.5s;
+    background-color: transparent;
 }
 .nav.active .nav-btn{
     background-image: url(./images/icon-close.svg);
